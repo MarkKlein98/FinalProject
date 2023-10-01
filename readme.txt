@@ -1,3 +1,3 @@
 Hi!
-This is a README.txt file for our final project.
+This is a README.txt file.
 It was created to let me initialize the remote repository.
