@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c97d05a-cc17-4358-a8cd-bca9ce3c07d3" name="Changes" comment="harta">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2c97d05a-cc17-4358-a8cd-bca9ce3c07d3" name="Changes" comment="harta" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,9 +65,38 @@
       <option name="presentableId" value="Default" />
       <updated>1696158123572</updated>
     </task>
+    <task id="LOCAL-00001" summary="harta">
+      <option name="closed" value="true" />
+      <created>1696160894567</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696160894567</updated>
+    </task>
+    <task id="LOCAL-00002" summary="harta">
+      <option name="closed" value="true" />
+      <created>1696160955074</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696160955074</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="UpDate 14:22 1/10/23" />
     <MESSAGE value="harta" />
     <option name="LAST_COMMIT_MESSAGE" value="harta" />
   </component>
