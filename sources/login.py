@@ -1,0 +1,8 @@
+login_button = '[class="header_userAreaLink"]'
+bars_and_pabs = '[src="/imgs/cocktail_3419b76f76974e70c53520500eb51915.svg"]'
+restaurants = '#root > div > div.modal_modalWrapper.false.modal_open > div > div > div > div.store_interests > div:nth-child(1)'
+save_button = '[class="store_saveBtn"]'
+enter_phone = '[placeholder="1 (702) 123-4567"]'
+submit_button = '[class="form_submitBtn"]'
+enter_code = '#root > div > div.modal_modalWrapper.false.modal_open > div > div > div > div > form > div.form_loginCode > div:nth-child(1) > span > input'
+code_submit = '[type="submit"]'
