@@ -12,7 +12,7 @@ phone = '972000000125'
 def create_mongo_connection(user_name, encoded_password, db_name):
     # Connect to MongoDB using the given credentials and return the database object
     client = pymongo.MongoClient(
-        f"mongodb+srv://{user_name}:{encoded_password}@cluster0.qnr3p.mongodb.net/{db_name}?retryWrites=true&w=majority")
+        f"mongodb+srv://{user_name}:{encoded_password}@cluster0.qnr3p.mongodb.net/{db_name}?retryWrites=true&w=majority&tlsAllowInvalidCertificates=true")
     return client
 
 
