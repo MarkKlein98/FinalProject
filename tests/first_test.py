@@ -31,6 +31,6 @@ class FirstTry(TestCase):
 
 
 
-    # def tearDown(self) -> None:
-    #     time.sleep(0.5)
-    #     self.my_driver.quit()
+    def tearDown(self) -> None:
+        time.sleep(0.5)
+        self.my_driver.quit()
