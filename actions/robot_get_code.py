@@ -4,7 +4,14 @@ password = password
 encoded_password = quote(password)
 user_name = user_name
 db_name = db_name
-phone = '972000000125'
+phone_Shalev = '972000000125'
+phone_Omri = '972000000444'
+phone_Elon = 'Insert phone here'
+phone_Mark = 'Insert phone here'
+phone_Lior = 'Insert phone here'
+phone_Aviv = 'Insert phone here'
+
+
 
 
 
@@ -50,11 +57,12 @@ def get_loginCode(db, phone):
         return None
 
 def full():
-    client = create_mongo_connection(user_name, encoded_password, db_name)
-    db = create_mongo_db(client, db_name)
-    test_connection(db)
-    login_code = get_loginCode(db, phone)
-    return login_code
+        client = create_mongo_connection(user_name, encoded_password, db_name)
+        db = create_mongo_db(client, db_name)
+        test_connection(db)
+        login_code = get_loginCode(db, phone_Shalev)
+        return login_code
+
 
 
 
