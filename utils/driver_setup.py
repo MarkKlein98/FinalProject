@@ -17,4 +17,4 @@ class Driver:
         self.driver = webdriver.Chrome(service=service, options=options)
 
 
-link = 'https://qa.trado.co.il/'
+link = 'https://qa.trado.ai/'

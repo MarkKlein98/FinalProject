@@ -1,11 +1,9 @@
 from imports.imports import *
 
 
-
 class Actions:
-    def __init__(self, driver):
-        self.my_driver = driver
-
+    def __init__(self, driver_object):
+        self.my_driver = driver_object.driver
 
     def click_element(self, locator, value):
         locator_type = getattr(By, locator)
@@ -33,10 +31,17 @@ class Actions:
             time.sleep(0.3)
         time.sleep(1)
 
-
     def click_specific_position(self, x, y):
         time.sleep(1)
         action = ActionChains(self.my_driver)
         action.move_by_offset(x, y)
         action.click()
         action.perform()
+
+
+
+
+
+
+
+
