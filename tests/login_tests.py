@@ -107,8 +107,6 @@ class LoginTests(TestCase):
         self.my_driver.find_element(By.CSS_SELECTOR, code_submit).click()
         self.assertTrue(self.my_driver.find_element(By.CSS_SELECTOR, wrong_code_message))
 
-
-
     # ------------------------------------------------------------------------------------------------------------------
 
 
