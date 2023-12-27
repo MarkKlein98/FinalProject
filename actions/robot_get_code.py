@@ -22,7 +22,7 @@ def create_mongo_connection(user_name, encoded_password, db_name):
 
 # --------------------------
 # Function to test the MongoDB connection
-def test_connection(db):
+def make_connection(db):
     try:
         db.command("ping")
         print("Connected to MongoDB.")
@@ -56,7 +56,7 @@ def get_loginCode(db, phone):
 def full():
     client = create_mongo_connection(user_name, encoded_password, db_name)
     db = create_mongo_db(client, db_name)
-    test_connection(db)
+    make_connection(db)
     login_code = get_loginCode(db, phone_Shalev)
     return login_code
 

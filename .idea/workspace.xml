@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c97d05a-cc17-4358-a8cd-bca9ce3c07d3" name="Changes" comment="Updated Version 20/12/23">
+    <list default="true" id="2c97d05a-cc17-4358-a8cd-bca9ce3c07d3" name="Changes" comment="27/12/2023 = Login tests DONE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actions/robot_get_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/actions/robot_get_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/sources/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/login_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/login_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/imports.py" beforeDir="false" afterPath="$PROJECT_DIR$/imports/imports.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/checkoutProcess.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checkoutProcess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/footerLinks.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/footerLinks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/header.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/header.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/homepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/personalArea.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalArea.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/login_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/mongodb_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/mongodb_robot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,29 +60,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for login_tests.LoginTests.test_remember_me">
-    <configuration name="mongodb_robot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Trado_Shalev" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/mongodb_robot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for login_tests.LoginTests.test_invalid_login_code" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for tests_login.LoginTests.test_google_logo">
+    <configuration name="Python tests for tests_login.LoginTests.test_facebook_logo" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Trado_Shalev" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,11 +71,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;login_tests.LoginTests.test_invalid_login_code&quot;" />
+      <option name="_new_target" value="&quot;tests_login.LoginTests.test_facebook_logo&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for login_tests.LoginTests.test_login_button" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests_login.LoginTests.test_google_logo" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Trado_Shalev" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,11 +85,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;login_tests.LoginTests.test_login_button&quot;" />
+      <option name="_new_target" value="&quot;tests_login.LoginTests.test_google_logo&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for login_tests.LoginTests.test_remember_me" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests_login.LoginTests.test_twitter_logo" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Trado_Shalev" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,11 +99,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;login_tests.LoginTests.test_remember_me&quot;" />
+      <option name="_new_target" value="&quot;tests_login.LoginTests.test_twitter_logo&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for login_tests.LoginTests.test_valid_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.tests_login.LoginTests.test_invalid_login_code" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Trado_Shalev" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,17 +113,31 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;login_tests.LoginTests.test_valid_login&quot;" />
+      <option name="_new_target" value="&quot;tests.tests_login.LoginTests.test_invalid_login_code&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.tests_login.LoginTests.test_remember_me" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Trado_Shalev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.tests_login.LoginTests.test_remember_me&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for login_tests.LoginTests.test_remember_me" />
-        <item itemvalue="Python tests.Python tests for login_tests.LoginTests.test_invalid_login_code" />
-        <item itemvalue="Python tests.Python tests for login_tests.LoginTests.test_login_button" />
-        <item itemvalue="Python tests.Python tests for login_tests.LoginTests.test_valid_login" />
-        <item itemvalue="Python.mongodb_robot" />
+        <item itemvalue="Python tests.Python tests for tests_login.LoginTests.test_google_logo" />
+        <item itemvalue="Python tests.Python tests for tests_login.LoginTests.test_twitter_logo" />
+        <item itemvalue="Python tests.Python tests for tests_login.LoginTests.test_facebook_logo" />
+        <item itemvalue="Python tests.Python tests for tests.tests_login.LoginTests.test_remember_me" />
+        <item itemvalue="Python tests.Python tests for tests.tests_login.LoginTests.test_invalid_login_code" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703072292726</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="27/12/2023 = Login tests DONE">
+      <option name="closed" value="true" />
+      <created>1703680964633</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703680964633</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +209,7 @@
     <MESSAGE value="harta" />
     <MESSAGE value="Phone numbers" />
     <MESSAGE value="Updated Version 20/12/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Version 20/12/23" />
+    <MESSAGE value="27/12/2023 = Login tests DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="27/12/2023 = Login tests DONE" />
   </component>
 </project>
