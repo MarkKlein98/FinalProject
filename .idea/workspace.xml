@@ -4,22 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c97d05a-cc17-4358-a8cd-bca9ce3c07d3" name="Changes" comment="27/12/2023 = Login tests DONE">
+    <list default="true" id="2c97d05a-cc17-4358-a8cd-bca9ce3c07d3" name="Changes" comment="31/12/2023 = UPDATE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/actions/actions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/robot_get_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/actions/robot_get_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/imports.py" beforeDir="false" afterPath="$PROJECT_DIR$/imports.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/act/actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/robot_get_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/act/robot_get_code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports.py" beforeDir="false" afterPath="$PROJECT_DIR$/imports.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/registration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/cart_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/cart_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/checkoutProcess_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/checkoutProcess_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/footerLinks_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/footerLinks_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/header_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/header_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/homepage_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/homepage_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/personalArea_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/personalArea_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/products_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/products_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/automatic_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/automatic_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/login_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/login_tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/registration_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/registration_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/login_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/mongodb_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/mongodb_robot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +63,8 @@
       <recent name="C:\Users\shale\PycharmProjects\Shalev_FinalProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for registration_tests.RegistrationTests.test_invalid_phone_number_length">
-    <configuration name="Python tests for login_tests.LoginTests.test_valid_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for registration_tests.RegistrationTests.test_valid_registration">
+    <configuration name="Python tests for registration_tests.RegistrationTests.test_invalid_area_code" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Trado_Shalev" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,7 +74,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;login_tests.LoginTests.test_valid_login&quot;" />
+      <option name="_new_target" value="&quot;registration_tests.RegistrationTests.test_invalid_area_code&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -142,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for registration_tests.RegistrationTests.test_valid_registration" />
+        <item itemvalue="Python tests.Python tests for registration_tests.RegistrationTests.test_invalid_area_code" />
         <item itemvalue="Python tests.Python tests for registration_tests.RegistrationTests.test_invalid_phone_number_length" />
         <item itemvalue="Python tests.Python tests for registration_tests.RegistrationTests.test_taken_phone_registration" />
-        <item itemvalue="Python tests.Python tests for registration_tests.RegistrationTests.test_valid_registration" />
         <item itemvalue="Python tests.Python tests for registration_tests.RegistrationTests.test_try" />
-        <item itemvalue="Python tests.Python tests for login_tests.LoginTests.test_valid_login" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +201,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703694117182</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="31/12/2023 = UPDATE">
+      <option name="closed" value="true" />
+      <created>1704013331557</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704013331557</updated>
+    </task>
+    <task id="LOCAL-00008" summary="31/12/2023 = UPDATE">
+      <option name="closed" value="true" />
+      <created>1704013691785</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704013691785</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +237,7 @@
     <MESSAGE value="Phone numbers" />
     <MESSAGE value="Updated Version 20/12/23" />
     <MESSAGE value="27/12/2023 = Login tests DONE" />
-    <option name="LAST_COMMIT_MESSAGE" value="27/12/2023 = Login tests DONE" />
+    <MESSAGE value="31/12/2023 = UPDATE" />
+    <option name="LAST_COMMIT_MESSAGE" value="31/12/2023 = UPDATE" />
   </component>
 </project>

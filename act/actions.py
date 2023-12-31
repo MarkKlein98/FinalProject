@@ -1,5 +1,6 @@
 from imports import *
-
+from src.login import *
+from src.registration import *
 
 class Actions:
     def __init__(self, driver_object):
@@ -38,7 +39,13 @@ class Actions:
         action.click()
         action.perform()
 
-
+    def registration_change_phone_number(self, phone):
+        phone_input_field = self.my_driver.find_element(By.CSS_SELECTOR, enter_phone)
+        ActionChains(self.my_driver).double_click(phone_input_field).perform()
+        phone_input_field.send_keys(Keys.DELETE)
+        phone_input_field.send_keys(phone)
+        Actions.click_element(self, 'CSS_SELECTOR', confirm_registration)
+        time.sleep(0.2)
 
 
 

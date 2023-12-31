@@ -1,6 +1,6 @@
 import pytest
 
-from actions.robot_get_code import *
+from act.robot_get_code import *
 from imports import *
 
 # ============================
