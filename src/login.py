@@ -16,6 +16,6 @@ UK_flag = '[class="flag gb"]'
 login_confirmation_element = '[class="login_subTitle"]'
 remember_me_button = '[class="checkbox_checkboxCircle"]'
 login_code_1 = '[class="input_0"]'
-
+send_code_in_SMS = '[class="login_sms"]'
 wrong_code_message = '[class="form_message"]'
 

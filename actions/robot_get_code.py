@@ -1,4 +1,4 @@
-from imports.imports import *
+from imports import *
 
 password = password
 encoded_password = quote(password)
@@ -22,7 +22,7 @@ def create_mongo_connection(user_name, encoded_password, db_name):
 
 # --------------------------
 # Function to test the MongoDB connection
-def test_connection(db):
+def make_connection(db):
     try:
         db.command("ping")
         print("Connected to MongoDB.")
@@ -53,11 +53,11 @@ def get_loginCode(db, phone):
 
 # --------------------------
 # Get code for a desired phone number
-def full():
+def full(insert_phone):
     client = create_mongo_connection(user_name, encoded_password, db_name)
     db = create_mongo_db(client, db_name)
-    test_connection(db)
-    login_code = get_loginCode(db, phone_Shalev)
+    make_connection(db)
+    login_code = get_loginCode(db, insert_phone)
     return login_code
 
 # --------------------------

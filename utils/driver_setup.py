@@ -18,3 +18,4 @@ class Driver:
 
 
 link = 'https://qa.trado.ai/'
+logged_in_link = 'https://qa.trado.ai/app'

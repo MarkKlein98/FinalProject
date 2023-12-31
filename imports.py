@@ -26,15 +26,15 @@ from utils.driver_setup import *
 # from utils.pa import password, user_name, db_name
 
 # SOURCES
-from sources.login import *
-from sources.cart import *
-from sources.checkoutProcess import *
-from sources.footerLinks import *
-from sources.header import *
-from sources.homepage import *
-from sources.personalArea import *
-from sources.products import *
-from sources.registration import *
+from src.login import *
+from src.cart import *
+from src.checkoutProcess import *
+from src.footerLinks import *
+from src.header import *
+from src.homepage import *
+from src.personalArea import *
+from src.products import *
+from src.registration import *
 
 # MONGODB
 import pymongo
