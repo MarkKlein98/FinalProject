@@ -1,6 +1,6 @@
 import pytest
 
-from actions.robot_get_code import *
+from act.robot_get_code import *
 from imports import *
 
 # ============================
@@ -48,32 +48,31 @@ class RegistrationTests(TestCase):
         Actions.click_element(self, 'XPATH', registration_button)
         self.my_driver.find_element(By.CSS_SELECTOR, employeeID).send_keys('123456')
         Actions.click_element(self, 'CSS_SELECTOR', accept_terms_button)
-        random_phone = 972000100000
+        random_phone = 972000100440
         while True:
-            phone_input_field = self.my_driver.find_element(By.CSS_SELECTOR, enter_phone)
-            ActionChains(self.my_driver).double_click(phone_input_field).perform()
-            phone_input_field.send_keys(Keys.DELETE)
-            phone_input_field.send_keys(random_phone)
-            Actions.click_element(self, 'CSS_SELECTOR', confirm_registration)
-            time.sleep(0.2)
-            if self.my_driver.find_element(By.CSS_SELECTOR, field_not_unique):  # FIX
-                random_phone += 1
-            else:
-                new_phone = random_phone
-                print(random_phone)
+            Actions.registration_change_phone_number(self, random_phone)
+            try:
+                self.my_driver.find_element(By.CSS_SELECTOR, enter_code)
                 time.sleep(2)
-                self.my_driver.find_element(By.CSS_SELECTOR, enter_code).send_keys(full(new_phone))
+                self.my_driver.find_element(By.CSS_SELECTOR, enter_code).send_keys(full(str(random_phone)))
                 self.my_driver.find_element(By.CSS_SELECTOR, code_submit).click()
+                Actions.click_element(self, 'XPATH', pabs_and_bars)
+                Actions.click_element(self, 'CSS_SELECTOR', final_registration_confirm)
+                # self.assertFalse(self.my_driver.find_element(By.CSS_SELECTOR, submit_button))
+                # FIX ASSERTION
+                break
+            except Exception:
+                random_phone += 1
+                time.sleep(0.3)
 
     # ------------------------------------------------------------------------------------------------------------------
     # 3.1.4.1.1
     def test_taken_phone_registration(self):
         Actions.click_element(self, 'CLASS_NAME', register_login_button)
         Actions.click_element(self, 'XPATH', registration_button)
-
+        self.my_driver.find_element(By.CSS_SELECTOR, enter_phone).send_keys(shalev)
         self.my_driver.find_element(By.CSS_SELECTOR, employeeID).send_keys('123456')
         Actions.click_element(self, 'CSS_SELECTOR', accept_terms_button)
-        self.my_driver.find_element(By.CSS_SELECTOR, enter_phone).send_keys(shalev)
         Actions.click_element(self, 'CSS_SELECTOR', confirm_registration)
         self.assertTrue(self.my_driver.find_element(By.CSS_SELECTOR, field_not_unique))
 
@@ -88,13 +87,26 @@ class RegistrationTests(TestCase):
         self.assertTrue(self.my_driver.find_element(By.CSS_SELECTOR, field_not_unique))
 
     # ------------------------------------------------------------------------------------------------------------------
-
+    def test_invalid_area_code(self):
+        Actions.click_element(self, 'CLASS_NAME', register_login_button)
+        Actions.click_element(self, 'XPATH', registration_button)
+        phone_input_field = self.my_driver.find_element(By.CSS_SELECTOR, enter_phone)
+        ActionChains(self.my_driver).double_click(phone_input_field).perform()
+        phone_input_field.send_keys(Keys.DELETE)
+        phone_input_field.send_keys('0000000722')
+        self.my_driver.find_element(By.CSS_SELECTOR, employeeID).send_keys('123456')
+        Actions.click_element(self, 'CSS_SELECTOR', accept_terms_button)
+        Actions.click_element(self, 'CSS_SELECTOR', confirm_registration)
+        self.assertTrue(self.my_driver.find_element(By.CSS_SELECTOR, send_code_in_SMS))
+    #  FIX
 
     # ------------------------------------------------------------------------------------------------------------------
 
     # def tearDown(self):
     #     time.sleep(0.5)
     #     self.my_driver.quit()
+
+
 
 
 

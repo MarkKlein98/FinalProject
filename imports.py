@@ -17,8 +17,8 @@ from tests.automatic_login import *
 # from tests. import *
 
 # ACTIONS
-from actions.actions import *
-from actions.robot_get_code import *
+from act.actions import *
+from act.robot_get_code import *
 
 # UTILS
 from utils.driver_setup import *
