@@ -1,5 +1,7 @@
+import pytest
+
 from actions.robot_get_code import *
-from imports.imports import *
+from imports import *
 
 # ============================
 
@@ -23,7 +25,6 @@ class LoginTests(TestCase):
     # ------------------------------------------------------------------------------------------------------------------
     # 4.1.1
     # def test_facebook_login(self):
-
 
     # ------------------------------------------------------------------------------------------------------------------
     # 4.1.1.1
@@ -52,7 +53,6 @@ class LoginTests(TestCase):
     # 4.1.3
     # def test_twitter_login(self):
 
-
     # ------------------------------------------------------------------------------------------------------------------
     # 4.1.3.1
     def test_twitter_logo(self):
@@ -65,7 +65,7 @@ class LoginTests(TestCase):
         Actions.click_element(self, 'CLASS_NAME', register_login_button)
         self.my_driver.find_element(By.CSS_SELECTOR, enter_phone).send_keys(shalev)
         Actions.click_element(self, 'CSS_SELECTOR', submit_button)
-        self.my_driver.find_element(By.CSS_SELECTOR, enter_code).send_keys(full())
+        self.my_driver.find_element(By.CSS_SELECTOR, enter_code).send_keys(full(phone_Shalev))
         self.my_driver.find_element(By.CSS_SELECTOR, code_submit).click()
         time.sleep(0.1)
         self.assertTrue(self.my_driver.find_element(By.CLASS_NAME, product_upload))
@@ -135,7 +135,7 @@ class LoginTests(TestCase):
         self.my_driver.find_element(By.CSS_SELECTOR, enter_phone).send_keys(shalev)
         Actions.click_element(self, 'CSS_SELECTOR', remember_me_button)
         Actions.click_element(self, 'CSS_SELECTOR', submit_button)
-        self.my_driver.find_element(By.CSS_SELECTOR, enter_code).send_keys(full())
+        self.my_driver.find_element(By.CSS_SELECTOR, enter_code).send_keys(full(phone_Shalev))
         self.my_driver.find_element(By.CSS_SELECTOR, code_submit).click()
         time.sleep(0.5)
         self.my_driver.get(logged_in_link)
@@ -143,9 +143,9 @@ class LoginTests(TestCase):
 
     # ------------------------------------------------------------------------------------------------------------------
 
-    def tearDown(self):
-        time.sleep(0.5)
-        self.my_driver.quit()
+    # def tearDown(self):
+    #     time.sleep(0.5)
+    #     self.my_driver.quit()
 
 
 

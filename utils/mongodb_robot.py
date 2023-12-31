@@ -1,4 +1,4 @@
-from imports.imports import *
+from imports import *
 
 password = password
 encoded_password = quote(password)
