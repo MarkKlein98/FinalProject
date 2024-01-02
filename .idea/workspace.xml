@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c97d05a-cc17-4358-a8cd-bca9ce3c07d3" name="Changes" comment="31/12/2023 = UPDATE">
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Trado_Shalev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Trado_Shalev.iml" afterDir="false" />
+    <list default="true" id="2c97d05a-cc17-4358-a8cd-bca9ce3c07d3" name="Changes" comment="2/1/2024 = Final Version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/act/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/act/actions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/act/robot_get_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/act/robot_get_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/registration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/homepage_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_homepage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/login_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/registration_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_registration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/mongodb_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/mongodb_robot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cart_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_registration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +58,55 @@
       <recent name="C:\Users\shale\PycharmProjects\Shalev_FinalProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_registration.RegistrationTests.test_invalid_phone_number_length">
+  <component name="RunManager" selected="Python tests.pytest for test_cart.CartTests.test_remove_specific_item_from_cart">
+    <configuration name="pytest for test_cart.CartTests" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Trado_Shalev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_cart.CartTests&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_cart.CartTests.test_remove_item_from_cart" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Trado_Shalev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_cart.CartTests.test_remove_item_from_cart&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_cart.CartTests.test_remove_specific_item_from_cart" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Trado_Shalev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_cart.CartTests.test_remove_specific_item_from_cart&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_registration.RegistrationTests.test_invalid_phone_number_length" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Trado_Shalev" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,61 +139,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for tests.test_login.LoginTests.test_send_new_code_in_SMS" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Trado_Shalev" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_login.LoginTests.test_send_new_code_in_SMS&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for tests.test_registration.RegistrationTests" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Trado_Shalev" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_registration.RegistrationTests&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for tests.test_registration.RegistrationTests.test_privacy_policy_not_checked_registration" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Trado_Shalev" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_registration.RegistrationTests.test_privacy_policy_not_checked_registration&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_registration.RegistrationTests.test_invalid_phone_number_length" />
+        <item itemvalue="Python tests.pytest for test_cart.CartTests.test_remove_specific_item_from_cart" />
+        <item itemvalue="Python tests.pytest for test_cart.CartTests.test_remove_item_from_cart" />
+        <item itemvalue="Python tests.pytest for test_cart.CartTests" />
         <item itemvalue="Python tests.pytest for test_registration.RegistrationTests.test_valid_registration" />
-        <item itemvalue="Python tests.pytest for tests.test_registration.RegistrationTests" />
-        <item itemvalue="Python tests.pytest for tests.test_login.LoginTests.test_send_new_code_in_SMS" />
-        <item itemvalue="Python tests.pytest for tests.test_registration.RegistrationTests.test_privacy_policy_not_checked_registration" />
+        <item itemvalue="Python tests.pytest for test_registration.RegistrationTests.test_invalid_phone_number_length" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704023957894</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2/1/2024 = Final Version">
+      <option name="closed" value="true" />
+      <created>1704226032362</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704226032362</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,6 +259,7 @@
     <MESSAGE value="Updated Version 20/12/23" />
     <MESSAGE value="27/12/2023 = Login tests DONE" />
     <MESSAGE value="31/12/2023 = UPDATE" />
-    <option name="LAST_COMMIT_MESSAGE" value="31/12/2023 = UPDATE" />
+    <MESSAGE value="2/1/2024 = Final Version" />
+    <option name="LAST_COMMIT_MESSAGE" value="2/1/2024 = Final Version" />
   </component>
 </project>
