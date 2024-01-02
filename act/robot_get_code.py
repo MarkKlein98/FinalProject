@@ -5,11 +5,7 @@ encoded_password = quote(password)
 user_name = user_name
 db_name = db_name
 phone_Shalev = '972000000125'
-phone_Omri = '972000000444'
-phone_Elon = 'Insert phone here'
-phone_Mark = 'Insert phone here'
-phone_Lior = 'Insert phone here'
-phone_Aviv = 'Insert phone here'
+
 
 
 # --------------------------

@@ -44,8 +44,8 @@ class Actions:
         ActionChains(self.my_driver).double_click(phone_input_field).perform()
         phone_input_field.send_keys(Keys.DELETE)
         phone_input_field.send_keys(phone)
-        Actions.click_element(self, 'CSS_SELECTOR', confirm_registration)
         time.sleep(0.2)
+        Actions.click_element(self, 'CSS_SELECTOR', confirm_registration)
 
 
 

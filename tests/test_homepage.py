@@ -6,7 +6,7 @@ from imports import *
 
 # ============================
 
-class RegistrationTests(TestCase):
+class HomepageTests(TestCase):
     def setUp(self) -> None:
         self.driver_object = Driver()
         self.my_driver = self.driver_object.driver

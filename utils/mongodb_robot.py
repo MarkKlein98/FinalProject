@@ -1,9 +1,13 @@
 from imports import *
 
+
 password = password
 encoded_password = quote(password)
 user_name = user_name
 db_name = db_name
+
+
+
 
 
 def main():
