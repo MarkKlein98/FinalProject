@@ -48,11 +48,11 @@ class RegistrationTests(TestCase):
         Actions.click_element(self, 'XPATH', registration_button)
         self.my_driver.find_element(By.CSS_SELECTOR, employeeID).send_keys('123456')
         Actions.click_element(self, 'CSS_SELECTOR', accept_terms_button)
-        random_phone = 972000300000
+        random_phone = 972000400000
         while True:
             Actions.registration_change_phone_number(self, random_phone)
             try:
-                time.sleep(1)
+                time.sleep(4)
                 self.my_driver.find_element(By.CSS_SELECTOR, enter_code)
                 self.my_driver.find_element(By.CSS_SELECTOR, enter_code).send_keys(full(str(random_phone)))
                 self.my_driver.find_element(By.CSS_SELECTOR, code_submit).click()

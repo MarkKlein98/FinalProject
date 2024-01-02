@@ -1,0 +1,6 @@
+first_category = '/html/body/div[1]/div/div[2]/div[2]/div/div/div/div/div[1]/div[2]/ul/li[9]/div/a/div'
+imported_product_2 = '[href="/product/5555555"]'
+add_product = '[class="micon-plus icon_icon "]'
+remove_product = '[class="micon-minus icon_icon "]'
+proceed_to_payment = '[class="cart_cartBtn"]'
+clear_cart_button = '[class="cart_clearCart"]'
