@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c97d05a-cc17-4358-a8cd-bca9ce3c07d3" name="Changes" comment="harta" />
+    <list default="true" id="2c97d05a-cc17-4358-a8cd-bca9ce3c07d3" name="Changes" comment="2/1/2024 = Final Version">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cart_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_registration.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -17,6 +29,12 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -30,14 +48,19 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Omri&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Shalev&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/omrik/PycharmProjects/FinalProject&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="Python tests for first_test.FirstTry.test_login_code" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="FinalProject" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shale\PycharmProjects\Shalev_FinalProject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_cart.CartTests.test_remove_specific_item_from_cart">
+    <configuration name="pytest for test_cart.CartTests" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Trado_Shalev" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -45,14 +68,84 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;first_test.FirstTry.test_login_code&quot;" />
+      <option name="_new_target" value="&quot;test_cart.CartTests&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_cart.CartTests.test_remove_item_from_cart" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Trado_Shalev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_cart.CartTests.test_remove_item_from_cart&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_cart.CartTests.test_remove_specific_item_from_cart" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Trado_Shalev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_cart.CartTests.test_remove_specific_item_from_cart&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_registration.RegistrationTests.test_invalid_phone_number_length" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Trado_Shalev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_registration.RegistrationTests.test_invalid_phone_number_length&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_registration.RegistrationTests.test_valid_registration" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Trado_Shalev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_registration.RegistrationTests.test_valid_registration&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for first_test.FirstTry.test_login_code" />
+        <item itemvalue="Python tests.pytest for test_cart.CartTests.test_remove_specific_item_from_cart" />
+        <item itemvalue="Python tests.pytest for test_cart.CartTests.test_remove_item_from_cart" />
+        <item itemvalue="Python tests.pytest for test_cart.CartTests" />
+        <item itemvalue="Python tests.pytest for test_registration.RegistrationTests.test_valid_registration" />
+        <item itemvalue="Python tests.pytest for test_registration.RegistrationTests.test_invalid_phone_number_length" />
       </list>
     </recent_temporary>
   </component>
@@ -81,7 +174,71 @@
       <option name="project" value="LOCAL" />
       <updated>1696160955074</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated Version 20/12/23">
+      <option name="closed" value="true" />
+      <created>1703072247101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703072247101</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated Version 20/12/23">
+      <option name="closed" value="true" />
+      <created>1703072292726</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703072292726</updated>
+    </task>
+    <task id="LOCAL-00005" summary="27/12/2023 = Login tests DONE">
+      <option name="closed" value="true" />
+      <created>1703680964633</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703680964633</updated>
+    </task>
+    <task id="LOCAL-00006" summary="27/12/2023 = Login tests DONE">
+      <option name="closed" value="true" />
+      <created>1703694117182</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703694117182</updated>
+    </task>
+    <task id="LOCAL-00007" summary="31/12/2023 = UPDATE">
+      <option name="closed" value="true" />
+      <created>1704013331557</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704013331557</updated>
+    </task>
+    <task id="LOCAL-00008" summary="31/12/2023 = UPDATE">
+      <option name="closed" value="true" />
+      <created>1704013691785</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704013691785</updated>
+    </task>
+    <task id="LOCAL-00009" summary="31/12/2023 = UPDATE">
+      <option name="closed" value="true" />
+      <created>1704023957894</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704023957894</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2/1/2024 = Final Version">
+      <option name="closed" value="true" />
+      <created>1704226032362</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704226032362</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +255,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="UpDate 14:22 1/10/23" />
     <MESSAGE value="harta" />
-    <option name="LAST_COMMIT_MESSAGE" value="harta" />
+    <MESSAGE value="Phone numbers" />
+    <MESSAGE value="Updated Version 20/12/23" />
+    <MESSAGE value="27/12/2023 = Login tests DONE" />
+    <MESSAGE value="31/12/2023 = UPDATE" />
+    <MESSAGE value="2/1/2024 = Final Version" />
+    <option name="LAST_COMMIT_MESSAGE" value="2/1/2024 = Final Version" />
   </component>
 </project>

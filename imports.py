@@ -9,7 +9,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 
 # TESTS
-# from tests. import *
+from tests.automatic_login import *
 # from tests. import *
 # from tests. import *
 # from tests. import *
@@ -17,18 +17,24 @@ from selenium.webdriver.common.action_chains import ActionChains
 # from tests. import *
 
 # ACTIONS
-from actions.actions import Actions
+from act.actions import *
+from act.robot_get_code import *
 
 # UTILS
 from utils.driver_setup import *
+# from utils.mongodb_robot import *
+# from utils.pa import password, user_name, db_name
 
 # SOURCES
-from sources.login import *
-# from sources. import *
-# from sources. import *
-# from sources. import *
-# from sources. import *
-# from sources. import *
+from src.login import *
+from src.cart import *
+from src.checkoutProcess import *
+from src.footerLinks import *
+from src.header import *
+from src.homepage import *
+from src.personalArea import *
+from src.products import *
+from src.registration import *
 
 # MONGODB
 import pymongo

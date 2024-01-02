@@ -1,4 +1,5 @@
-from imports.imports import *
+from imports import *
+
 
 password = password
 encoded_password = quote(password)
@@ -6,10 +7,13 @@ user_name = user_name
 db_name = db_name
 
 
+
+
+
 def main():
     client = create_mongo_connection(user_name, encoded_password, db_name)
     db = create_mongo_db(client, db_name)
-    test_connection(db)
+    make_connection(db)
     display_collections(db)
 
     # Main menu
@@ -83,7 +87,7 @@ def create_mongo_db(client, db_name):
 
 
 # Function to test the MongoDB connection
-def test_connection(db):
+def make_connection(db):
     try:
         db.command("ping")
         print("Connected to MongoDB.")
