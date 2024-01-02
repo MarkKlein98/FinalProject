@@ -155,6 +155,3 @@ class LoginTests(TestCase):
     def tearDown(self):
         time.sleep(0.5)
         self.my_driver.quit()
-
-
-

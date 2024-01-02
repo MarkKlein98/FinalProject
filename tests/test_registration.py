@@ -1,5 +1,4 @@
 import pytest
-import random
 from act.robot_get_code import *
 from imports import *
 

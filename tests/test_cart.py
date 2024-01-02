@@ -1,5 +1,4 @@
 import pytest
-import random
 from act.robot_get_code import *
 from imports import *
 
@@ -32,7 +31,7 @@ class CartTests(TestCase):
         Actions.click_element(self, 'CSS_SELECTOR', add_product)
         clear_cart = self.my_driver.find_element(By.CSS_SELECTOR, clear_cart_button)
         Actions.click_element(self, 'CSS_SELECTOR', remove_product)
-        # self.assertFalse()
+        # self.assertFalse(clear_cart)
 
     # ------------------------------------------------------------------------------------------------------------------
     # 9.3
@@ -76,14 +75,6 @@ class CartTests(TestCase):
 
     # ------------------------------------------------------------------------------------------------------------------
 
-    # def tearDown(self):
-    #     time.sleep(0.5)
-    #     self.my_driver.quit()
-
-
-
-
-
-
-
-
+    def tearDown(self):
+        time.sleep(0.5)
+        self.my_driver.quit()

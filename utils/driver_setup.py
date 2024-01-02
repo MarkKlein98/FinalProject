@@ -11,7 +11,7 @@ class Driver:
     def __init__(self):
         options = Options()
         service = Service(ChromeDriverManager().install())
-        options.add_argument('--disable-extentions')
+        options.add_argument('--disable-extensions')
         options.add_argument('--start-maximized')
         options.add_experimental_option('detach', True)
         self.driver = webdriver.Chrome(service=service, options=options)

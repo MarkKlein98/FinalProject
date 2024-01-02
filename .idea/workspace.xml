@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2c97d05a-cc17-4358-a8cd-bca9ce3c07d3" name="Changes" comment="2/1/2024 = Final Version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/cart_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/driver_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/driver_setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,21 +45,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Shalev&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/omrik/PycharmProjects/FinalProject&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Shalev",
+    "last_opened_file_path": "C:/Users/omrik/PycharmProjects/FinalProject",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\shale\PycharmProjects\Shalev_FinalProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_cart.CartTests.test_remove_specific_item_from_cart">
+  <component name="RunManager" selected="Python tests.pytest for test_login.LoginTests.test_valid_login">
     <configuration name="pytest for test_cart.CartTests" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Trado_Shalev" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,7 +108,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_registration.RegistrationTests.test_invalid_phone_number_length" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_login.LoginTests.test_remember_me" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Trado_Shalev" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,11 +120,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_registration.RegistrationTests.test_invalid_phone_number_length&quot;" />
+      <option name="_new_target" value="&quot;test_login.LoginTests.test_remember_me&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_registration.RegistrationTests.test_valid_registration" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_login.LoginTests.test_valid_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Trado_Shalev" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,17 +136,17 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_registration.RegistrationTests.test_valid_registration&quot;" />
+      <option name="_new_target" value="&quot;test_login.LoginTests.test_valid_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_login.LoginTests.test_valid_login" />
+        <item itemvalue="Python tests.pytest for test_login.LoginTests.test_remember_me" />
         <item itemvalue="Python tests.pytest for test_cart.CartTests.test_remove_specific_item_from_cart" />
         <item itemvalue="Python tests.pytest for test_cart.CartTests.test_remove_item_from_cart" />
         <item itemvalue="Python tests.pytest for test_cart.CartTests" />
-        <item itemvalue="Python tests.pytest for test_registration.RegistrationTests.test_valid_registration" />
-        <item itemvalue="Python tests.pytest for test_registration.RegistrationTests.test_invalid_phone_number_length" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704226032362</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2/1/2024 = Final Version">
+      <option name="closed" value="true" />
+      <created>1704233977855</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704233977855</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
